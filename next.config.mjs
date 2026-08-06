@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
+  output: 'export',
+  trailingSlash: true,
+ typescript: {
+   ignoreBuildErrors: true,
+ },
+ images: {
+   unoptimized: true,
+ },
   async headers() {
     return [
       {
