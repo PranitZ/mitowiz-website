@@ -46,9 +46,7 @@ export function Hero() {
             {...fadeUp(0.18)}
             className="mt-7 max-w-[560px] text-pretty text-[1.05rem] leading-relaxed text-secondary md:text-[1.2rem]"
           >
-            MitoWiz deploys AI workers that log into payer portals and complete repetitive RCM
-            workflows end to end — so your team clears more volume, faster, without adding
-            headcount.
+            MitoWiz deploys AI workers that handle prior authorizations, eligibility checks, and claim status follow-ups across payer portals — so your RCM team clears more volume without adding headcount.
           </motion.p>
 
           <motion.div {...fadeUp(0.28)} className="mt-10 flex flex-wrap items-center gap-4">

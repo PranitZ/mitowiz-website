@@ -56,7 +56,13 @@ export function HowItWorks() {
             </li>
           ))}
         </ol>
-      </div>
-    </section>
-  )
-}
+         <Reveal delay={0.32} className="mt-10 text-center">
+           <p className="text-pretty text-[14.5px] leading-relaxed text-secondary max-w-[600px] mx-auto">
+             <span className="font-semibold text-foreground">Built for portal changes.</span> When payers update their
+             UI, MitoWiz workers adapt automatically — no broken scripts, no maintenance burden.
+           </p>
+         </Reveal>
+        </div>
+        </section>
+        )
+        }
