@@ -15,7 +15,7 @@ export function ProblemSection() {
         <SectionHeader
           eyebrow="The problem"
           title="Stop hiring for repetitive work."
-          description="Every prior auth, eligibility check, and claim status inquiry means another portal login, another hold queue, another form filled by hand. It doesn't require judgment — it requires hours. MitoWiz gives that time back with AI workers that run these payer workflows end to end, while your team handles only the exceptions."
+          description="Every prior auth, eligibility check, and claim status inquiry means another portal login, another form filled by hand, and custom scripts that break every time a payer updates their UI. MitoWiz gives that time back with AI workers that navigate payer portals end-to-end and adapt automatically — while your team handles only the exceptions."
         />
         <Reveal delay={0.1} className="lg:pt-[52px]">
           <ul className="flex flex-col divide-y divide-line border-y border-line">
