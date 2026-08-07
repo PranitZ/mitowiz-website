@@ -5,18 +5,23 @@ import { ArrowRightIcon } from './icons'
 const steps = [
   {
     num: '01',
-    title: 'Connect your workflow',
-    text: 'Integrate with your existing systems and payer portal workflows in days, not months.',
+    title: 'Tell us your pain',
+    text: 'Which workflows are eating your team’s time? Prior auth, eligibility, claim status, appeals, payment posting, or something else.',
   },
   {
     num: '02',
-    title: 'AI workers take over the repetitive tasks',
-    text: 'Prior auth, eligibility, claim status, and appeals run continuously in the background.',
+    title: 'Map your SOP',
+    text: 'We document your exact portal steps, rules, payer mix, and exceptions so the workflow matches how you already work.',
   },
   {
     num: '03',
-    title: 'Your team reviews only exceptions',
-    text: 'People step in only when a workflow needs judgment. Everything else completes on its own.',
+    title: 'Automate what can be automated',
+    text: 'We build browser-based workflows for the tasks that can be automated, and define clear handoffs for the ones that can’t. No pretending. No overpromising.',
+  },
+  {
+    num: '04',
+    title: 'Run & report',
+    text: 'We execute daily and send you structured results — submissions, approvals, denials, pending, and exceptions.',
   },
 ]
 
@@ -31,7 +36,7 @@ export function HowItWorks() {
           className="mb-14 md:mb-16"
         />
 
-        <ol className="grid list-none grid-cols-1 items-start gap-10 lg:grid-cols-[1fr_auto_1fr_auto_1fr] lg:gap-2">
+        <ol className="grid list-none grid-cols-1 items-start gap-10 lg:grid-cols-[1fr_auto_1fr_auto_1fr_auto_1fr] lg:gap-2">
           {steps.map((step, i) => (
             <li key={step.num} className="contents">
               <Reveal delay={i * 0.08} className="p-1">

@@ -1,31 +1,55 @@
 import { Reveal } from './reveal'
 import { SectionHeader } from './section-header'
-import { DocumentCheckIcon, RefreshIcon, SearchIcon, ShieldCheckIcon } from './icons'
+import { DocumentCheckIcon, RefreshIcon, SearchIcon, ShieldCheckIcon, WalletIcon, ExclamationTriangleIcon, UserGroupIcon, FolderOpenIcon } from './icons'
 
 const cards = [
-  {
-    icon: DocumentCheckIcon,
-    tag: 'PA',
-    title: 'Prior Authorization',
-    text: 'AI workers submit, track, and follow up on prior auth requests across payer portals until a decision is reached.',
-  },
   {
     icon: ShieldCheckIcon,
     tag: 'EV',
     title: 'Eligibility Verification',
-    text: 'Coverage, benefits, and plan details verified before a claim is ever submitted — not after it comes back denied.',
+    text: 'Verifies benefits, coverage, and authorization requirements before every visit. Flags if insurance is not active on the date of service.',
+  },
+  {
+    icon: DocumentCheckIcon,
+    tag: 'PA',
+    title: 'Prior Authorization',
+    text: 'Submits, tracks, and completes authorization requests across payer portals.',
   },
   {
     icon: SearchIcon,
     tag: 'CS',
     title: 'Claim Status',
-    text: 'Continuous status checks across payer systems, with updates routed straight into your workflow.',
+    text: 'Follows up on submitted claims and surfaces status changes in real time.',
   },
   {
     icon: RefreshIcon,
     tag: 'AP',
-    title: 'Appeals & Follow-ups',
-    text: 'Timely follow-ups and appeal submissions on outstanding claims, without a single missed deadline.',
+    title: 'Appeals',
+    text: 'Prepares appeal packages and submits them with supporting documentation.',
+  },
+  {
+    icon: WalletIcon,
+    tag: 'PP',
+    title: 'Payment Posting',
+    text: 'Posts ERA/EOB data and updates your practice management system.',
+  },
+  {
+    icon: ExclamationTriangleIcon,
+    tag: 'DM',
+    title: 'Denial Management',
+    text: 'Identifies denial patterns and routes cases for resolution.',
+  },
+  {
+    icon: UserGroupIcon,
+    tag: 'RM',
+    title: 'Referral Management',
+    text: 'Manages referral authorization workflows with payers from request to approval.',
+  },
+  {
+    icon: FolderOpenIcon,
+    tag: 'MR',
+    title: 'Medical Records',
+    text: 'Collects, uploads, and tracks required documentation across portals and fax/email workflows.',
   },
 ]
 

@@ -126,6 +126,45 @@ export function ArrowUpRightIcon(props: IconProps) {
   )
 }
 
+export function WalletIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <rect x="2" y="5" width="20" height="14" rx="2" />
+      <path d="M16 12h.01" />
+    </svg>
+  )
+}
+
+export function ExclamationTriangleIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M12 9v4" />
+      <path d="M12 17h.01" />
+      <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
+    </svg>
+  )
+}
+
+export function UserGroupIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <circle cx="9" cy="7" r="4" />
+      <path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" />
+      <circle cx="17" cy="11" r="3" />
+      <path d="M21 21v-1.5a3 3 0 0 0-3-3h-1" />
+    </svg>
+  )
+}
+
+export function FolderOpenIcon(props: IconProps) {
+  return (
+    <svg {...base} {...props}>
+      <path d="M2 7.5A2.5 2.5 0 0 1 4.5 5h5.172a2 2 0 0 1 1.414.586l1.828 1.828H19.5A2.5 2.5 0 0 1 22 9.5v9a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5Z" />
+      <path d="M2 13.5h20" />
+    </svg>
+  )
+}
+
 export function MenuIcon(props: IconProps) {
   return (
     <svg {...base} {...props}>
