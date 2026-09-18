@@ -36,6 +36,32 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} bg-bg`}>
+      <head>
+        <link rel="canonical" href="https://mitowiz.com/" />
+        <meta property="og:title" content="MitoWiz — Your AI Workforce for Revenue Cycle Management" />
+        <meta property="og:description" content="MitoWiz is building an AI workforce for Healthcare Revenue Cycle Management, helping RCM teams automate repetitive payer portal workflows." />
+        <meta property="og:image" content="/placeholder-logo.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Organization',
+              name: 'MitoWiz',
+              url: 'https://mitowiz.com/',
+              logo: 'https://mitowiz.com/placeholder-logo.png',
+              contactPoint: [
+                {
+                  '@type': 'ContactPoint',
+                  email: 'hello@mitowiz.com',
+                  contactType: 'customer service',
+                },
+              ],
+            }),
+          }}
+        />
+      </head>
       <body className="bg-bg font-sans text-foreground antialiased">
         <a href="#main" className="skip-link">
           Skip to content
