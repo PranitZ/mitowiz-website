@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="100%" fill="none">
+  <g id="mitowiz-m-mark-solid">
+    <path d="M 139,85 L 212,235 L 255,235 L 182,85 Z" fill="#000000" />
+    <path d="M 285,85 L 348,215 L 391,215 L 328,85 Z" fill="#000000" />
+    <path d="M 55,275 L 139,85 L 182,85 L 98,255 Z" fill="#000000" />
+    <path d="M 212,235 L 285,85 L 328,85 L 255,235 Z" fill="#000000" />
+    <path d="M 348,215 L 383,135 L 426,115 L 391,215 Z" fill="#000000" />
+  </g>
+</svg>
