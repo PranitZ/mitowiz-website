@@ -1,0 +1,11 @@
+robots.txt for mitowiz.com
+Last updated: 2026-09-18
+Sitemap points search engines to the main pages we want indexed
+Sitemap: MitoWiz — Your AI Workforce for Revenue Cycle Management
+
+User-agent: * Allow: /
+
+Content signals: the site operator reserves rights under EU Directive 2019/790.
+search: yes
+ai-input: no
+ai-train: no
