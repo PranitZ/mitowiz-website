@@ -40,7 +40,15 @@ export default function RootLayout({
         <link rel="canonical" href="https://mitowiz.com/" />
         <meta property="og:title" content="MitoWiz — Your AI Workforce for Revenue Cycle Management" />
         <meta property="og:description" content="MitoWiz is building an AI workforce for Healthcare Revenue Cycle Management, helping RCM teams automate repetitive payer portal workflows." />
-        <meta property="og:image" content="/placeholder-logo.png" />
+        <meta property="og:image" content="/og-image-1200x630.png" />
+        <meta name="twitter:image" content="/twitter-image-1200x675.png" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/mask-icon.svg" color="#00D7B0" />
+        <meta name="theme-color" content="#ffffff" />
         <meta name="twitter:card" content="summary_large_image" />
         <script
           type="application/ld+json"
@@ -50,7 +58,7 @@ export default function RootLayout({
               '@type': 'Organization',
               name: 'MitoWiz',
               url: 'https://mitowiz.com/',
-              logo: 'https://mitowiz.com/placeholder-logo.png',
+              logo: 'https://mitowiz.com/mitowiz-master-original.png',
               contactPoint: [
                 {
                   '@type': 'ContactPoint',

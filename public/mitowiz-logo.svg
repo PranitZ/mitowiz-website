@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Gradients matching Concept 1 -->
+    <linearGradient id="mw-grad-1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="mw-grad-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="mw-grad-3" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+    <linearGradient id="mw-grad-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <linearGradient id="mw-grad-5" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#00F5D4" />
+    </linearGradient>
+
+    <!-- Shadow for 3D Overlaps -->
+    <filter id="mw-fold-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="-2" dy="3" stdDeviation="4" flood-color="#01040A" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap');
+    .mw-title {
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 80px;
+      letter-spacing: -1.5px;
+    }
+    .mw-subtitle {
+      font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 9.5px;
+    }
+  </style>
+
+  <g id="mitowiz-lockup-dark">
+    <!-- Icon part (translated and scaled) -->
+    <g transform="translate(35, 25) scale(0.48)">
+      <path d="M 139,85 L 212,235 L 255,235 L 182,85 Z" fill="url(#mw-grad-2)" />
+      <path d="M 285,85 L 348,215 L 391,215 L 328,85 Z" fill="url(#mw-grad-4)" />
+      <path d="M 55,275 L 139,85 L 182,85 L 98,255 Z" fill="url(#mw-grad-1)" filter="url(#mw-fold-shadow)" />
+      <path d="M 212,235 L 285,85 L 328,85 L 255,235 Z" fill="url(#mw-grad-3)" filter="url(#mw-fold-shadow)" />
+      <path d="M 348,215 L 383,135 L 426,115 L 391,215 Z" fill="url(#mw-grad-5)" filter="url(#mw-fold-shadow)" />
+    </g>
+
+    <!-- Typography (White for Dark backgrounds) -->
+    <g transform="translate(285, 122)">
+      <text class="mw-title" fill="#FFFFFF">MitoWiz</text>
+    </g>
+    <g transform="translate(288, 172)">
+      <text class="mw-subtitle" fill="#818CF8">RCM AUTOMATION</text>
+    </g>
+  </g>
+</svg>
