@@ -10,7 +10,7 @@ export function BrandMark() {
     >
       <picture>
         <source srcSet="/mitowiz-logo.svg" media="(min-width: 768px)" />
-        <img src="/mitowiz-mark.svg" alt="MitoWiz" className="h-[26px] w-auto md:h-[36px]" />
+        <img src="/mitowiz-mark.svg" alt="MitoWiz" className="h-[30px] w-auto md:h-[48px]" />
       </picture>
       <span className="sr-only">MitoWiz</span>
     </Link>
