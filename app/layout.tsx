@@ -38,10 +38,16 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable} bg-bg`}>
       <head>
         <link rel="canonical" href="https://mitowiz.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mitowiz.com/" />
+        <meta property="og:site_name" content="MitoWiz" />
         <meta property="og:title" content="MitoWiz — Your AI Workforce for Revenue Cycle Management" />
         <meta property="og:description" content="MitoWiz is building an AI workforce for Healthcare Revenue Cycle Management, helping RCM teams automate repetitive payer portal workflows." />
-        <meta property="og:image" content="/og-image-1200x630.png" />
-        <meta name="twitter:image" content="/twitter-image-1200x675.png" />
+        <meta property="og:image" content="https://mitowiz.com/og-image-1200x630.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="MitoWiz — Your AI Workforce for Revenue Cycle Management" />
+        <meta name="twitter:description" content="MitoWiz is building an AI workforce for Healthcare Revenue Cycle Management, helping RCM teams automate repetitive payer portal workflows." />
+        <meta name="twitter:image" content="https://mitowiz.com/twitter-image-1200x675.png" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -49,7 +55,6 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/mask-icon.svg" color="#00D7B0" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="twitter:card" content="summary_large_image" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
